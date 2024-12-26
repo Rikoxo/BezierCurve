@@ -1,6 +1,4 @@
-using BezierCurve
 using Test
-
-@testset "BezierCurve.jl" begin
-    # Write your tests here.
-end
+include("test_bezier_functions.jl")
+include("test_intersection_functions.jl")
+include("test_plot_functions.jl")
